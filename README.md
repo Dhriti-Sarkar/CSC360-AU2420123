@@ -1,10 +1,9 @@
 # CSC360 - Computer Graphics & Digital Image Processing
-Reflection journal and study notes for Dhriti Sarkar.
+Reflection journal and study notes for Dhriti Sarkar AU2420123
 
 ## Structure
 - `reflections/` — per-lecture TODO-style reflection notes
-- `study-notes/` — topic-based notes expanding on discussion questions
-- `questions.md` — running list of open questions
+- `study-notes/` — topic-based notes expanding on discussion question
 
 ## Index
 | Date | Lecture | Reflection | 
