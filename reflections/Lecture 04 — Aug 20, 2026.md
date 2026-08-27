@@ -1,4 +1,4 @@
-# Lecture 05 — Aug 20, 2026
+# Lecture 04 — Aug 20, 2026
 
 ## TODO / Topics covered (revision checklist)
 
