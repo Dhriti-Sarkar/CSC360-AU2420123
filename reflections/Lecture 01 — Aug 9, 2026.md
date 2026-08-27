@@ -1,4 +1,4 @@
-# Lecture 01 - Aug 9, 2026
+# Lecture 01 - Aug 6, 2026
 
 ##Topic covered (revision checklist)
 
