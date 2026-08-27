@@ -10,8 +10,8 @@ Reflection journal and study notes for Dhriti Sarkar.
 
 | Date | Lecture | Reflection | Study Notes |
 |------|---------|-----------|-------------|
-| Aug 9, 2026 | Intro: Graphics vs Image Processing, Java GUI, Raster/Vector, Git basics | [reflections/2026-08-09-lecture01.md](reflections/2026-08-09-lecture01.md) | [git-and-ssh](study-notes/git-and-ssh.md) · [graphics-fundamentals](study-notes/graphics-fundamentals.md) · [java-gui-frameworks](study-notes/java-gui-frameworks.md) · [raster-vs-vector](study-notes/raster-vs-vector.md) · [windows-vs-linux](study-notes/windows-vs-linux.md) |
-| Aug 12, 2026 | Maven install + JavaFX setup in IntelliJ | [reflections/2026-08-12-lecture02.md](reflections/2026-08-12-lecture02.md) | [maven-and-javafx-setup](study-notes/maven-and-javafx-setup.md) · [javafx-shapes-and-properties](study-notes/javafx-shapes-and-properties.md) |
+| Aug 6, 2026 | Intro: Graphics vs Image Processing, Java GUI, Raster/Vector, Git basics | [reflections/2026-06-08-lecture01.md](reflections/2026-06-08-lecture01.md) | [git-and-ssh](study-notes/git-and-ssh.md) · [graphics-fundamentals](study-notes/graphics-fundamentals.md) · [java-gui-frameworks](study-notes/java-gui-frameworks.md) · [raster-vs-vector](study-notes/raster-vs-vector.md) · [windows-vs-linux](study-notes/windows-vs-linux.md) |
+| Aug 13, 2026 | Maven install + JavaFX setup in IntelliJ | [reflections/2026-13-08-lecture02.md](reflections/2026-08-12-lecture02.md) | [maven-and-javafx-setup](study-notes/maven-and-javafx-setup.md) · [javafx-shapes-and-properties](study-notes/javafx-shapes-and-properties.md) |
 
 ## Projects
 - [javafx-square-demo](projects/javafx-square-demo/) — a JavaFX square with a customizable outline, built and run using Maven. Explores shape properties (fill, stroke, size) and scroll-based scaling.
