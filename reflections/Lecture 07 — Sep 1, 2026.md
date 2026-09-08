@@ -37,6 +37,3 @@
 - Row vs column vector convention explains why different graphics APIs (OpenGL vs DirectX) can look like they're doing transformations "backwards" from each other — it's not actually inconsistent, just a different mathematical convention.
 - Determinants connect directly to whether a transformation can be "undone" — relevant for anything involving converting between coordinate spaces (world space, camera space, screen space).
 
-## Open questions (carry to next class)
-
-- (none yet — I wasn't in class, so I'll flag anything unclear once I go through this properly)
