@@ -23,6 +23,7 @@ List A        List B
 - **Lecture 13 (Sep 29):** final feature (splash screen) and project documentation (README and Wiki). See [javafx-preloader-splash-screen](javafx-preloader-splash-screen.md) and [readme-vs-wiki-documentation](readme-vs-wiki-documentation.md).
 - **Lecture 15 (Oct 6):** preparing to defend design decisions in the technical Q&A. See [project-presentation-and-technical-qa](project-presentation-and-technical-qa.md).
 - **Lecture 16 (Oct 8):** how matching and arrow drawing work. See [set-intersection-and-arrow-drawing](set-intersection-and-arrow-drawing.md).
+- **Lecture 18 (Oct 22):** repository standards checklist (README, layout, commits, Javadoc, tests). See [github-repository-grading-criteria](github-repository-grading-criteria.md).
 
 ## Related
 
