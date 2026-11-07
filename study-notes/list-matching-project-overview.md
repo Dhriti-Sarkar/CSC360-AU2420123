@@ -20,6 +20,7 @@ List A        List B
 - **Lecture 10 (Sep 10):** group project planning started.
 - **Lecture 11 (Sep 15):** first version scaffolded with Claude, reviewed, run on one machine, approved by the faculty, and committed to GitHub.
 - **Lecture 12 (Sep 17):** next features planned: dark/light theme, drag-and-drop reordering of list items, UI refresh. See [javafx-theming-and-drag-and-drop](javafx-theming-and-drag-and-drop.md).
+- **Lecture 13 (Sep 29):** final feature (splash screen) and project documentation (README and Wiki). See [javafx-preloader-splash-screen](javafx-preloader-splash-screen.md) and [readme-vs-wiki-documentation](readme-vs-wiki-documentation.md).
 
 ## Related
 
