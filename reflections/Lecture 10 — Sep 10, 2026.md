@@ -11,7 +11,7 @@
 - [ ] Know the difference between Server-Side Rendering (SSR) and Client-Side Rendering (CSR) and the trade-offs of each
 - [ ] Know how graphics are stored: relational DB (binary / file path) vs object storage (Amazon S3, Google Cloud Storage)
 - [ ] Understand why AWT is called the "Abstract Window Toolkit"
-- [ ] Know what Group 7's project (Taskwood) is and how it maps to the assignment requirements
+- [ ] Know what our list matching project is and what was planned for it this session
 
 ## Questions discussed in class
 
@@ -24,7 +24,7 @@
 - Who does the rendering work in SSR vs CSR, and when should each be used?
 - How should a large collection of high-resolution images be stored — in a relational database or elsewhere?
 - Why is AWT called the "Abstract" Window Toolkit?
-- What should our group build for the "tree of editable objects" assignment?
+- What should our group build for the group project?
 
 ## Key takeaways
 
@@ -34,6 +34,6 @@
 - SSR vs CSR is a question of *where the work happens*: SSR gives a faster first load and better SEO; CSR gives faster subsequent interactions and cheaper servers. SSR is the software-side view of Lecture 8's headless-server idea.
 - For large-scale image storage, object stores (S3, Google Cloud Storage) beat relational databases on scale, redundancy, and cost; a relational DB is fine for a few small images (binary data or a file path).
 - AWT delegates to the OS's native widgets (a Windows button on Windows, a macOS button on macOS); the "abstract" part is the Java layer hiding OS differences.
-- Group 7's project, **Taskwood**: a local-first JavaFX app with a Workspaces → Projects → Tasks tree, a form panel to edit any node, and automatic JSON persistence. This session was planning only; it draws on layouts, event listeners, TreeView (Lecture 8), and persistence.
+- Our group project is the **list matching project**: two lists shown as aligned columns, with arrows drawn between matching elements (the idea from Lecture 8). This session was planning only; it draws on canvas drawing, event listeners, and layouts.
 - Challenging part: object storage (S3) — understood the use case but never configured a bucket.
 - CSE330 (Computer Networks) connection: packet delivery variance, server/client work split, and remote storage are all networking concepts landing in a graphics context.

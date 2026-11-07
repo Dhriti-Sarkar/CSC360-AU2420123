@@ -1,16 +1,16 @@
 # AI-Assisted Development & Vibe Coding (explained simply)
 
-This session was pure project work, and Taskwood's first version was scaffolded with Claude. These notes capture the workflow and what stays the developer's responsibility.
+This session was pure project work, and the list matching project's first version was scaffolded with Claude. These notes capture the workflow and what stays the developer's responsibility.
 
 ## What vibe coding means
 
 A workflow where the main role shifts from writing code line by line to **guiding an AI assistant** to generate, refine, and debug an application conversationally. Industry data cited in class reading: **72% of developers use AI coding tools daily and 41% of global code is AI-generated** (daily.dev, 2026).
 
-## The workflow used for Taskwood
+## The workflow used for the list matching project
 
 ```mermaid
 flowchart LR
-    A["Team decides design<br/>(levels, tree, form, JSON)"] --> B["AI generates scaffold"]
+    A["Team decides design<br/>(two lists, matching, arrows)"] --> B["AI generates scaffold"]
     B --> C["Team reads and understands key parts"]
     C --> D["Test on one machine"]
     D --> E["Demo to faculty"]
