@@ -24,6 +24,7 @@ List A        List B
 - **Lecture 15 (Oct 6):** preparing to defend design decisions in the technical Q&A. See [project-presentation-and-technical-qa](project-presentation-and-technical-qa.md).
 - **Lecture 16 (Oct 8):** how matching and arrow drawing work. See [set-intersection-and-arrow-drawing](set-intersection-and-arrow-drawing.md).
 - **Lecture 18 (Oct 22):** repository standards checklist (README, layout, commits, Javadoc, tests). See [github-repository-grading-criteria](github-repository-grading-criteria.md).
+- **Lecture 19 (Oct 27):** code quality (WHY comments, consistent formatting) and justifying the project as solving a real problem. See [code-comments-and-formatting](code-comments-and-formatting.md) and [ai-originality-and-understanding-your-code](ai-originality-and-understanding-your-code.md).
 
 ## Related
 
