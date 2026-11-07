@@ -1,4 +1,4 @@
-# Lecture 19 — Oct 27, 2026
+# Lecture 20 — Oct 27, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -21,12 +21,12 @@
 
 ## Key takeaways
 
-- The professor used each repository as a live prompt, flagging patterns in the code and turning them into real-world lessons. The same five criteria from Lecture 18 applied (README, folder structure, commit messages, Javadoc, tests).
+- The professor used each repository as a live prompt, flagging patterns in the code and turning them into real-world lessons. The same five criteria from Lecture 19 applied (README, folder structure, commit messages, Javadoc, tests).
 - **Inline comments explain WHY, not WHAT.** The code already shows what it does; the reasoning behind a decision or a value is what gets lost when you step away from the file. Comments that just restate the line add noise.
 - **Consistent formatting** across the codebase signals that the team coordinated and wrote with a reader in mind. Inconsistency makes code harder to parse even when the logic is correct.
-- **Code as communication:** a function that runs but takes twenty minutes to understand is worse than one that takes slightly longer to write but reads clearly. This extends the "write logic once, apply it broadly" idea from Lecture 14.
+- **Code as communication:** a function that runs but takes twenty minutes to understand is worse than one that takes slightly longer to write but reads clearly. This extends the "write logic once, apply it broadly" idea from Lecture 15.
 - **Creativity:** engineering projects should try to create curiosity ("how did they build this?") rather than explain every feature up front. Over-explaining is a common instinct and usually the wrong one.
-- **AI and understanding:** producing good code and documentation is genuinely easier now, but you can only use code immediately if you truly understand it. Otherwise you spend the same time later working out what it does and whether it is correct. This is the same point as the Q&A lesson from Lecture 15 and the AI-assisted development note from Lecture 11: if you cannot explain why it is structured that way, you cannot defend it.
+- **AI and understanding:** producing good code and documentation is genuinely easier now, but you can only use code immediately if you truly understand it. Otherwise you spend the same time later working out what it does and whether it is correct. This is the same point as the Q&A lesson from Lecture 16 and the AI-assisted development note from Lecture 12: if you cannot explain why it is structured that way, you cannot defend it.
 - **Originality:** point AI at problems that genuinely exist. A clone built faster is still a clone. For our list matching project, the real-world need (reconciling two collections and seeing the matches) is what justifies it, not the technology.
 - Open question I did not resolve: at what point does AI assistance make something yours versus the AI's?
 - Discussion-based session: nothing to implement, so no technical challenge this time.

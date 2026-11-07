@@ -4,7 +4,7 @@ Our course is structured as a step-by-step difficulty ramp — each tier builds 
 
 ## Tier 1: Basic shapes (where we started)
 
-This is the centered-square work from Lecture 3/4 — simple, "orthogonal" (straight, right-angled) shapes like squares and rectangles. Even though this seems basic, it actually teaches the core foundations everything else builds on:
+This is the centered-square work from Lecture 4/5 — simple, "orthogonal" (straight, right-angled) shapes like squares and rectangles. Even though this seems basic, it actually teaches the core foundations everything else builds on:
 - How screen coordinates work (top-left origin, not center-based)
 - How to calculate offsets so a shape appears properly centered
 - The basic idea of mapping "real-world" positions onto a pixel grid (this is what "Cartesian-to-raster mapping" means — converting standard x/y math coordinates into actual pixel positions on screen)
@@ -13,7 +13,7 @@ This is the centered-square work from Lecture 3/4 — simple, "orthogonal" (stra
 
 This is the next step up — instead of simple 4-sided shapes, we work with triangles built from 3 arbitrary points.
 
-**Why triangles specifically?** Any 3 points that aren't in a straight line (non-collinear — remember this from Lecture 5's collinearity discussion!) always define a single, flat, unambiguous plane. This sounds abstract, but it's *the* reason triangles are used as the standard building block in basically all graphics hardware and 3D rendering — more complex shapes (like a 4+ sided polygon) can sometimes be non-flat or ambiguous in 3D space, but a triangle never has that problem.
+**Why triangles specifically?** Any 3 points that aren't in a straight line (non-collinear — remember this from Lecture 6's collinearity discussion!) always define a single, flat, unambiguous plane. This sounds abstract, but it's *the* reason triangles are used as the standard building block in basically all graphics hardware and 3D rendering — more complex shapes (like a 4+ sided polygon) can sometimes be non-flat or ambiguous in 3D space, but a triangle never has that problem.
 
 This tier also introduces more advanced math:
 - **Cross products and determinants** — mathematical tools used to verify that 3 points really aren't collinear, and to calculate things like triangle orientation.

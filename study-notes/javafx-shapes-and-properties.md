@@ -29,7 +29,7 @@ So resizing a shape often means its position needs recalculating too, if you wan
 ## Static vs interactive positioning
 
 - Setting `layoutX`/`layoutY` once, directly in the `start()` method, makes the shape stay fixed in place — nothing moves it after that.
-- Attaching a handler like `scene.setOnMouseMoved(...)` and updating `layoutX`/`layoutY` inside it makes the shape *dynamically* follow user input instead — this ties back to the Event Listener Model from Lecture 01, where the mouse movement is the event, and the handler is the listener reacting to it.
+- Attaching a handler like `scene.setOnMouseMoved(...)` and updating `layoutX`/`layoutY` inside it makes the shape *dynamically* follow user input instead — this ties back to the Event Listener Model from Lecture 02, where the mouse movement is the event, and the handler is the listener reacting to it.
 
 ## Key takeaway
 > Fill = inside color. Stroke = outline color + thickness. Width/Height = size. LayoutX/LayoutY = fixed position (or dynamically updated position, if driven by an event listener).

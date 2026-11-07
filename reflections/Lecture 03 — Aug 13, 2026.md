@@ -1,4 +1,4 @@
-# Lecture 02 — Aug 13, 2026
+# Lecture 03 — Aug 13, 2026
 
 ## TODO / Topics covered (revision checklist)
 

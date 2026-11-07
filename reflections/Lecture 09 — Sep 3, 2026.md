@@ -1,4 +1,4 @@
-# Lecture 08 — Sep 3, 2026
+# Lecture 09 — Sep 3, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -25,12 +25,12 @@
 - What is a master-detail UI pattern, and how does TreeView fit into it?
 - What is object serialization, and what formats can it use in Java?
 - Why can't heavy background work run directly on the JavaFX Application Thread?
-- What are ExecutorService and Task<V>, and how do they relate to the EDT concept from Lecture 6?
+- What are ExecutorService and Task<V>, and how do they relate to the EDT concept from Lecture 7?
 - How do you safely cancel a running background task without destabilizing the app?
 
 ## Key takeaways
 
 - The ASCII-tree-vs-graphics-tree discussion is literally the same topic I already worked through with Claude a few weeks ago — good to see it reinforced in class with more formal vocabulary (headless systems, remote accessibility via SSH).
 - Group 5's "dynamic arrow mapping" project is essentially the exact same concept as my own list-arrows project — visualizing common elements between two lists using arrows. Worth comparing notes with that group.
-- The Task<V> + ExecutorService pattern is the JavaFX-specific version of the same EDT/background-thread safety rule from Lecture 6 — same core idea (don't block the UI thread), just with JavaFX's specific tools instead of Swing's SwingUtilities.invokeLater().
+- The Task<V> + ExecutorService pattern is the JavaFX-specific version of the same EDT/background-thread safety rule from Lecture 7 — same core idea (don't block the UI thread), just with JavaFX's specific tools instead of Swing's SwingUtilities.invokeLater().
 

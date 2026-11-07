@@ -1,4 +1,4 @@
-# Lecture 07 — Sep 1, 2026
+# Lecture 08 — Sep 1, 2026
 
 ## TODO / Topics covered (revision checklist)
 

@@ -1,6 +1,6 @@
 # Multi-Job Concurrency: ExecutorService & Task<V> (explained simply)
 
-This builds directly on the concurrency/EDT concepts from Lecture 6 — same core problem, but now applied specifically within JavaFX's own threading tools.
+This builds directly on the concurrency/EDT concepts from Lecture 7 — same core problem, but now applied specifically within JavaFX's own threading tools.
 
 ## Recap: why heavy work can't run on the UI thread
 
@@ -13,7 +13,7 @@ Just like Swing has the **Event Dispatch Thread (EDT)**, JavaFX has its own equi
 
 ## How progress reporting works safely
 
-Each background `Task` calculates its own progress and reports it back to the UI using a special **thread-safe property**: `task.progressProperty()`. This is important — directly updating a regular UI component's property from a background thread would violate the single-threaded UI rule from Lecture 6, but JavaFX's `Task` framework is specifically built to let this progress value update safely, without manually invoking something like `SwingUtilities.invokeLater()` yourself every time (JavaFX handles that safety internally, when used correctly through Task).
+Each background `Task` calculates its own progress and reports it back to the UI using a special **thread-safe property**: `task.progressProperty()`. This is important — directly updating a regular UI component's property from a background thread would violate the single-threaded UI rule from Lecture 7, but JavaFX's `Task` framework is specifically built to let this progress value update safely, without manually invoking something like `SwingUtilities.invokeLater()` yourself every time (JavaFX handles that safety internally, when used correctly through Task).
 
 ## Building a composite progress bar
 

@@ -4,7 +4,7 @@
 
 This is presented as a non-negotiable habit: before writing any new code locally, you should first run `git pull` to bring your local copy up to date with whatever's on the shared/remote repository.
 
-**This is exactly what happened to me already** — when I tried to push my Lecture 4 notes, I got a "rejected... fetch first" error because my local repo was behind the remote. Pulling first would have avoided that entirely.
+**This is exactly what happened to me already** — when I tried to push my Lecture 5 notes, I got a "rejected... fetch first" error because my local repo was behind the remote. Pulling first would have avoided that entirely.
 
 ## Why this matters in team settings
 

@@ -31,7 +31,7 @@ The EDT is responsible for:
 - Running all rendering/drawing instructions
 - Processing repaint requests
 - Handling mouse/keyboard events
-- Calling your event listener code (like the button click handlers from Lecture 5)
+- Calling your event listener code (like the button click handlers from Lecture 6)
 
 Since it's just **one** thread doing all of this, there's no risk of two threads fighting over the same UI data at the same time — the complexity of thread synchronization is avoided entirely, just by design.
 

@@ -1,4 +1,4 @@
-# Lecture 13 — Sep 29, 2026
+# Lecture 14 — Sep 29, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -21,9 +21,9 @@
 ## Key takeaways
 
 - This was the last dedicated in-class project session. Our project was almost done, so the conversation with the professor was short, and the group agreed on one final feature: a splash screen.
-- A splash screen appears briefly at launch before the main window. In JavaFX the standard way is a `Preloader`, a separate class run before the main `Application`. A simpler option is a separate `Stage` with a short fade transition that closes before the main `Scene` appears. Builds on the splash screen components from Lecture 8.
+- A splash screen appears briefly at launch before the main window. In JavaFX the standard way is a `Preloader`, a separate class run before the main `Application`. A simpler option is a separate `Stage` with a short fade transition that closes before the main `Scene` appears. Builds on the splash screen components from Lecture 9.
 - For our project it is mainly a branding moment: the project name and a brief loading state before the list matching UI appears. It gives the app a proper entry point so it feels finished rather than a prototype.
-- The UI rework planned in Lecture 12 is now visible. The earlier version was flat, white, and utilitarian; the redesign is cleaner and better proportioned, and makes the project feel finished.
+- The UI rework planned in Lecture 13 is now visible. The earlier version was flat, white, and utilitarian; the redesign is cleaner and better proportioned, and makes the project feel finished.
 - Work split: part of the group implemented the splash screen, the rest started the README and the Wiki on GitHub.
 - README = a couple-of-minutes pitch (what it is, what it does, how to run it). Wiki = depth (architecture decisions, feature explanations, known limitations, contribution steps). Mixing them gives a README that is too long and a Wiki that repeats it.
 - Writing documentation forces an outside-in view of the project and surfaces parts that are still unclear even to the builders.

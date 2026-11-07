@@ -1,4 +1,4 @@
-# Lecture 06 — Aug 27, 2026
+# Lecture 07 — Aug 27, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -33,7 +33,7 @@
 ## Key takeaways
 
 - The .java → .class → .jar pipeline finally explains exactly what my `mvn package` command has been doing behind the scenes this whole semester.
-- The Git hygiene rule here (never commit compiled binaries) is the same principle behind the .gitignore setup I already did for target/ and .idea/ back in Lecture 3/4 — this lecture explains the deeper "why."
+- The Git hygiene rule here (never commit compiled binaries) is the same principle behind the .gitignore setup I already did for target/ and .idea/ back in Lecture 4/5 — this lecture explains the deeper "why."
 - UTF-8 vs UTF-16 connects directly back to the character set notes from earlier — UTF-8/UTF-16 are specific *encodings* of the Unicode character set I already learned about.
 - Unit vs integration testing builds directly on the unit vs acceptance testing distinction I already asked about — integration testing sits somewhere in between those two.
 

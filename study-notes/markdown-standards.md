@@ -12,7 +12,7 @@ The lecture stressed that reflection notes shouldn't just restate what happened 
 ## Markdown formatting techniques worth using
 
 - **Headers** (`#`, `##`, `###`) — organize notes into clear sections, so a long document is easy to scan and jump around in.
-- **Tables** — great for comparing things side by side (like the Windows vs Linux table from Lecture 1), instead of writing it all out as prose.
+- **Tables** — great for comparing things side by side (like the Windows vs Linux table from Lecture 2), instead of writing it all out as prose.
 - **Code blocks** (using triple backticks ``` ) — used to show actual code or formulas clearly, separated visually from regular explanation text.
 - **Blockquotes** (using `>`) — useful for calling out a key takeaway or important summary line, making it visually stand out from the rest of the note.
 

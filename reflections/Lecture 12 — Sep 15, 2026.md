@@ -1,4 +1,4 @@
-# Lecture 11 — Sep 15, 2026
+# Lecture 12 — Sep 15, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -22,7 +22,7 @@
 - The most important decisions in an AI-assisted project are architectural (how the two lists are laid out, how matches are found, how the arrows are drawn). The AI writes the implementation; the team owns the design.
 - Generated code was longer and more structured than expected, so the team read the key parts before running it. Approval for code you cannot explain is not a valid outcome.
 - The first demo of the list matching project ran on one machine and the faculty confirmed the project was on the right track. The approval was a checkpoint that avoided building on a wrong foundation.
-- The initial source was committed to GitHub at the end of the session so every member could clone it and work from the same base. This builds on the Git workflow from Lectures 1–3 and the governance rules from Lecture 7.
-- The project continues directly from the Lecture 10 planning; it builds on the list-arrows idea from Lecture 8 and the layouts from Lecture 9.
+- The initial source was committed to GitHub at the end of the session so every member could clone it and work from the same base. This builds on the Git workflow from Lectures 2–4 and the governance rules from Lecture 8.
+- The project continues directly from the Lecture 11 planning; it builds on the list-arrows idea from Lecture 9 and the layouts from Lecture 10.
 - Vibe coding is mainstream: daily.dev (2026) reports 72% of developers use AI coding tools daily and 41% of global code is AI-generated. Directing, reviewing, and shipping AI output is becoming as important as writing code.
 - AI assistance does not remove the need to understand; it shifts it from syntax to design intent, architecture, and critical review.

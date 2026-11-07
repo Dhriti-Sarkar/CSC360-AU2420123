@@ -16,11 +16,11 @@ A "splash screen" is the temporary branding/loading screen an app shows immediat
 The actual branding content — app name, logo (which could be a vector graphic, scalable without quality loss, or a raster/pixel-based image), version number text, and a styled background.
 
 **2. Non-blocking asset preloading**
-While the splash screen is showing, the app is often quietly doing real setup work in the background — loading configuration files, initializing a database connection, etc. This needs to happen **asynchronously** (on a separate background thread — connecting directly to the concurrency/EDT concepts from Lecture 6!), so the splash screen's loading indicator (like a progress bar, or an "indeterminate" spinner when you don't know exactly how long something will take) stays smooth and responsive, rather than freezing while the real work happens.
+While the splash screen is showing, the app is often quietly doing real setup work in the background — loading configuration files, initializing a database connection, etc. This needs to happen **asynchronously** (on a separate background thread — connecting directly to the concurrency/EDT concepts from Lecture 7!), so the splash screen's loading indicator (like a progress bar, or an "indeterminate" spinner when you don't know exactly how long something will take) stays smooth and responsive, rather than freezing while the real work happens.
 
 **3. Stage transitions**
 Once all the background startup tasks finish, the app needs to automatically close/hide the temporary splash window (referred to as an "undecorated Stage" — meaning a plain window with no title bar or borders, just the splash content) and transition into showing the actual main application window.
 
 ## Why this connects back to earlier lectures
 
-The "non-blocking asset preloading" requirement is a direct, practical application of the thread-safety principles from Lecture 6 — you cannot do slow work (like loading a database connection) directly on the JavaFX UI thread without freezing the splash screen's animation/progress indicator.
+The "non-blocking asset preloading" requirement is a direct, practical application of the thread-safety principles from Lecture 7 — you cannot do slow work (like loading a database connection) directly on the JavaFX UI thread without freezing the splash screen's animation/progress indicator.

@@ -35,7 +35,7 @@ Think of building a car again: **unit tests** check that individual parts work c
 
 ## Why automate both inside the Maven build lifecycle
 
-Remember the `test` phase from Maven's build lifecycle (Lecture 5)? Running both unit and integration test suites automatically as part of that standard build process means **every incremental change gets continuously verified** — catching regressions (something that used to work, but broke due to a new change) immediately, before that broken code ever gets merged into the main/production codebase.
+Remember the `test` phase from Maven's build lifecycle (Lecture 6)? Running both unit and integration test suites automatically as part of that standard build process means **every incremental change gets continuously verified** — catching regressions (something that used to work, but broke due to a new change) immediately, before that broken code ever gets merged into the main/production codebase.
 
 ## Quick comparison table
 

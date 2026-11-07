@@ -18,7 +18,7 @@ Basic lifecycle setup for a JFrame typically involves:
 
 ## paintComponent(Graphics g) — the core rendering loop
 
-Inside your custom JPanel class, you override a method called `paintComponent(Graphics g)`. This is where all your actual drawing instructions go (like `fillRect`, `drawPolygon`, etc. from Lecture 4).
+Inside your custom JPanel class, you override a method called `paintComponent(Graphics g)`. This is where all your actual drawing instructions go (like `fillRect`, `drawPolygon`, etc. from Lecture 5).
 
 **Why `super.paintComponent(g)` is mandatory:** at the very start of your overridden method, you must call `super.paintComponent(g)` first. This tells Java to run the *original* built-in painting behavior of JPanel first (which clears the panel's background properly) before your own custom drawing code runs. If you skip this, old drawings can stick around visually even after they should be gone — these leftover bits are called **visual artifacts**, essentially graphical "ghosts" left behind from previous frames.
 
@@ -26,7 +26,7 @@ Inside your custom JPanel class, you override a method called `paintComponent(Gr
 
 ## Setting colors and stroke before drawing
 
-Using the `Graphics` object, you set the active color (via the `Color` class) and any stroke/style properties **before** you actually call a drawing method — this is the same "state machine" idea from Lecture 4, where `setColor()` sets what "marker" is currently selected before you draw with it.
+Using the `Graphics` object, you set the active color (via the `Color` class) and any stroke/style properties **before** you actually call a drawing method — this is the same "state machine" idea from Lecture 5, where `setColor()` sets what "marker" is currently selected before you draw with it.
 
 ## Adding interactive controls
 

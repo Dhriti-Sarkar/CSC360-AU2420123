@@ -1,6 +1,6 @@
 # Maven Packaging & CI/CD Pipelines (explained simply)
 
-This builds directly on the Maven lifecycle notes from Lecture 5 — going deeper into exactly *how* pom.xml controls compilation and packaging, and how that plugs into automated CI/CD.
+This builds directly on the Maven lifecycle notes from Lecture 6 — going deeper into exactly *how* pom.xml controls compilation and packaging, and how that plugs into automated CI/CD.
 
 ## How pom.xml actually drives compilation
 

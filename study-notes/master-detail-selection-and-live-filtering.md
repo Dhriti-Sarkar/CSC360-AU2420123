@@ -8,7 +8,7 @@ Extends the Master-Detail overview in [ui-components-and-affordances](ui-compone
 - **Detail:** a panel on the other side showing the full record of the selected item.
 - **Search bar:** filters the master list in real time.
 
-It mirrors how people browse a collection: scan the list, pick one, see everything. It also avoids loading everything at once (the library with ten million articles from Lecture 9).
+It mirrors how people browse a collection: scan the list, pick one, see everything. It also avoids loading everything at once (the library with ten million articles from Lecture 10).
 
 ## How it works in JavaFX
 

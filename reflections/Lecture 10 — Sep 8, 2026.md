@@ -1,4 +1,4 @@
-# Lecture 09 — Sep 8, 2026
+# Lecture 10 — Sep 8, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -28,11 +28,11 @@
 
 ## Key takeaways
 
-- The Collections Framework is a hierarchy: `Iterable` at the root, `Collection` branching into `List`, `Set`, and `Queue`, with `Map` as a separate key-value branch. This gives the context for Lecture 8's Stack vs Queue discussion — Queue is one of the three main branches, and Stack is a legacy class built on `Vector`.
+- The Collections Framework is a hierarchy: `Iterable` at the root, `Collection` branching into `List`, `Set`, and `Queue`, with `Map` as a separate key-value branch. This gives the context for Lecture 9's Stack vs Queue discussion — Queue is one of the three main branches, and Stack is a legacy class built on `Vector`.
 - Unmodifiable wrappers are a concrete Java implementation of separating read access from write access — familiar from DSA, now as a design pattern for keeping shared state safe.
-- JavaFX events do not jump straight to their target: they go **down** from root to target (capturing — filters intercept) and then **back up** (bubbling — handlers respond). This is the formal structure behind the mouse listener used to draw arrows between circles in Lecture 8.
+- JavaFX events do not jump straight to their target: they go **down** from root to target (capturing — filters intercept) and then **back up** (bubbling — handlers respond). This is the formal structure behind the mouse listener used to draw arrows between circles in Lecture 9.
 - Checkboxes, radio buttons, sliders, and dialog boxes are *affordances*, not just widgets — each signals a different kind of interaction before the user reads a label (ties directly into CSE519 HCI).
-- Master-Detail (list on one side, details on the other) is everywhere — Gmail, Outlook, file managers — and builds on the TreeView master-detail idea from Lecture 8.
+- Master-Detail (list on one side, details on the other) is everywhere — Gmail, Outlook, file managers — and builds on the TreeView master-detail idea from Lecture 9.
 - Group 12's WebView/WebEngine project is essentially a stripped-down version of how browser extensions work: an external program reaching into the browser's DOM and changing it.
 - Course expectations: class participation, attention in sessions, assigned reading, and take-home activities carry equal weight — strong assignment output alone doesn't compensate for disengagement.
 - The event hierarchy was the hardest part of this session — likely to only fully click while debugging a real nested UI (filter vs handler, which phase, what happens on consume).

@@ -1,6 +1,6 @@
 # JavaFX Event Propagation: Capturing & Bubbling (explained simply)
 
-Builds on the mouse listener from Lecture 8 (drawing arrows between circles). There, "something listens for a mouse click and responds" was enough. This is the formal structure behind it.
+Builds on the mouse listener from Lecture 9 (drawing arrows between circles). There, "something listens for a mouse click and responds" was enough. This is the formal structure behind it.
 
 ## Events travel through the scene graph
 

@@ -1,4 +1,4 @@
-# Lecture 12 — Sep 17, 2026
+# Lecture 13 — Sep 17, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -22,7 +22,7 @@
 ## Key takeaways
 
 - This was a project lab with no new teaching content and no code written or committed. Planning and task distribution were the deliverable.
-- Faculty's Git guidance: commit often, push before pulling, and talk before touching shared files. Clearly defined individual responsibilities prevent most conflicts. This builds on the mechanics from Lectures 1–3 and the governance rules from Lecture 7.
+- Faculty's Git guidance: commit often, push before pulling, and talk before touching shared files. Clearly defined individual responsibilities prevent most conflicts. This builds on the mechanics from Lectures 2–4 and the governance rules from Lecture 8.
 - The cross-platform check confirmed the list matching project runs on both Windows and Mac. Risk areas are file path handling, font rendering and canvas drawing differences, and JavaFX behaviour quirks. It needs re-testing whenever the codebase changes significantly.
 - Agreed features: dark/light theme toggle (separate stylesheets swapped at runtime), drag-and-drop reordering of list items, and a UI redesign with a brighter, cleaner tech aesthetic.
 - Dark mode and drag-and-drop are expected in mature apps (VS Code, Notion, Figma).

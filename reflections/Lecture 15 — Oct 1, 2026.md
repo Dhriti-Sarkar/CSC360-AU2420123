@@ -1,4 +1,4 @@
-# Lecture 14 — Oct 1, 2026
+# Lecture 15 — Oct 1, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -24,9 +24,9 @@
 
 - The session opened with mock presentations for a few selected groups, an interactive feedback round with the presenting group, the faculty, and the class. Seeing it live made the evaluation format concrete.
 - **Functionality vs features:** functionality is whether the software works correctly and fulfils its core purpose; features are the extras on top. Evaluation weights functionality more, so a focused, reliable project beats a feature-heavy one that breaks during the demo. For our list matching project, the core (matching elements and drawing the arrows correctly) matters more than extras.
-- **Generics:** making the type a parameter lets one implementation serve all types, e.g. `List`, `Map`, `Set` from the Collections Framework (Lecture 9). It also keeps fixes in one place.
+- **Generics:** making the type a parameter lets one implementation serve all types, e.g. `List`, `Map`, `Set` from the Collections Framework (Lecture 10). It also keeps fixes in one place.
 - Generics and inheritance both come from the instinct to write logic once: inheritance shares behaviour down a class hierarchy, generics share it across unrelated types.
 - **Shape hierarchy:** `Shape` is abstract; `Rectangle`, `Circle`, `Line`, `Ellipse` extend it and inherit fill, stroke, strokeWidth, opacity. A `List<Shape>` can be looped over and updated without knowing concrete types: polymorphism applied to graphics.
 - **Two drawing models:** scene graph shapes are persistent objects in the node tree (retained mode, property-based); `GraphicsContext` on a `Canvas` is immediate mode (draw commands go to a pixel buffer and nothing is retained). `GraphicsContext` resembles the older Java 2D `Graphics2D` style from earlier lectures.
-- Good documentation lets an evaluator understand the project without reading source (ties to Lecture 13).
+- Good documentation lets an evaluator understand the project without reading source (ties to Lecture 14).
 - Challenging part: why both drawing models exist and when to use which was not fully clear from the session alone.

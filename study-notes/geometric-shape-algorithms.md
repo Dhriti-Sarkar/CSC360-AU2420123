@@ -1,10 +1,10 @@
 # Building Shapes from Coordinate Points (explained simply)
 
-This builds directly on the centering-math from Lecture 4 — same core idea of turning simple point data into the actual parameters a drawing method needs.
+This builds directly on the centering-math from Lecture 5 — same core idea of turning simple point data into the actual parameters a drawing method needs.
 
 ## Building a rectangle from two diagonal corner points
 
-Instead of directly being given a rectangle's top-left corner + width + height (like we used in Lecture 4), sometimes you're only given **two opposite corner points**: `(x1, y1)` and `(x2, y2)` — imagine clicking two opposite corners of a rectangle with your mouse.
+Instead of directly being given a rectangle's top-left corner + width + height (like we used in Lecture 5), sometimes you're only given **two opposite corner points**: `(x1, y1)` and `(x2, y2)` — imagine clicking two opposite corners of a rectangle with your mouse.
 
 To turn these two points into an actual drawable rectangle, you need to figure out the true top-left corner and the width/height:
 

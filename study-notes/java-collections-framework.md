@@ -1,6 +1,6 @@
 # Java Collections Framework & View-Only Access (explained simply)
 
-This session placed the data structures from Lecture 8 (Stack vs Queue) inside the bigger picture of Java's built-in toolbox. Covered in Core Java Vol. I, Chapter 9 (with generics in Chapter 8 — the `<String>` in `ArrayList<String>` is generics at work, giving compile-time type safety).
+This session placed the data structures from Lecture 9 (Stack vs Queue) inside the bigger picture of Java's built-in toolbox. Covered in Core Java Vol. I, Chapter 9 (with generics in Chapter 8 — the `<String>` in `ArrayList<String>` is generics at work, giving compile-time type safety).
 
 ## The hierarchy
 

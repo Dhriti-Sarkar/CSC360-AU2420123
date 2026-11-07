@@ -1,4 +1,4 @@
-# Lecture 04 — Aug 20, 2026
+# Lecture 05 — Aug 20, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -30,7 +30,7 @@
 
 - Good reflection notes should capture actual understanding and connections between topics — not just restate what was said. Directly relevant to how I should be writing these files.
 - Swing's structure is frame-contains-panel, not the other way around — easy to get backwards if you're new to it.
-- The rectangle-from-two-points and triangle-from-three-points logic connects directly back to the centered-square math from Lecture 4 — both are about deriving a shape's actual drawing parameters from a simpler starting description.
+- The rectangle-from-two-points and triangle-from-three-points logic connects directly back to the centered-square math from Lecture 5 — both are about deriving a shape's actual drawing parameters from a simpler starting description.
 
 ## Open questions (carry to next class)
 

@@ -4,7 +4,7 @@ This lecture marks a shift from working solo to working with a team on a shared 
 
 ## Why group projects need stricter Git discipline
 
-When you're the only person touching a repo, messy habits are forgivable — worst case, you only inconvenience yourself. With multiple developers pushing to the same repository, sloppy habits cause real problems: merge conflicts, inconsistent code style, and diverged branches (remember the divergent branch issue from Lecture 5? That gets far more likely with more people involved).
+When you're the only person touching a repo, messy habits are forgivable — worst case, you only inconvenience yourself. With multiple developers pushing to the same repository, sloppy habits cause real problems: merge conflicts, inconsistent code style, and diverged branches (remember the divergent branch issue from Lecture 6? That gets far more likely with more people involved).
 
 ## The protected main branch
 
@@ -25,7 +25,7 @@ Once work on a feature branch is ready, the developer opens a **pull request (PR
 
 ## Shared .gitignore for a Java/Maven group project
 
-Since multiple people are contributing, everyone needs to agree on (and use) the same `.gitignore` rules, so nobody accidentally commits things that shouldn't be shared — this connects directly to the .gitignore work from Lecture 3/4 and Lecture 6:
+Since multiple people are contributing, everyone needs to agree on (and use) the same `.gitignore` rules, so nobody accidentally commits things that shouldn't be shared — this connects directly to the .gitignore work from Lecture 4/5 and Lecture 7:
 
 - **Local workspace configurations** — IDE-specific settings folders like `.idea/`, since these are personal to each developer's own editor setup.
 - **Compiled bytecode directories** — Maven's `target/` folder, since this is regenerated automatically by anyone who builds the project.

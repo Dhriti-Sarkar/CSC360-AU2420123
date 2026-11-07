@@ -1,4 +1,4 @@
-# Lecture 05 — Aug 25, 2026
+# Lecture 06 — Aug 25, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -33,6 +33,6 @@
 ## Key takeaways
 
 - Our whole course is basically structured as a difficulty ramp: squares/rectangles → triangles/polygons → recursive fractals. Useful to know where we are on that ramp.
-- The Git pull-before-work habit connects directly to the divergent branches issue I actually ran into myself when pushing Lecture 4 notes — this lecture explains exactly *why* that happened.
+- The Git pull-before-work habit connects directly to the divergent branches issue I actually ran into myself when pushing Lecture 5 notes — this lecture explains exactly *why* that happened.
 - The EDT concept explains why all my paintComponent() drawing code has been running "automatically" without me manually managing threads so far — Swing has been handling that single-threaded execution for me the whole time.
 

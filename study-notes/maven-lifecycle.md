@@ -1,6 +1,6 @@
 # Maven Build Lifecycle (explained simply)
 
-This builds directly on the Maven/pom.xml basics from Lecture 2 — going a bit deeper into what pom.xml actually manages, and the standard sequence of build steps.
+This builds directly on the Maven/pom.xml basics from Lecture 3 — going a bit deeper into what pom.xml actually manages, and the standard sequence of build steps.
 
 ## pom.xml is more than just a dependency list
 

@@ -1,4 +1,4 @@
-# Lecture 10 — Sep 10, 2026
+# Lecture 11 — Sep 10, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -31,9 +31,9 @@
 - The course is pivoting: the first half was *generating* images from code, the second half is *processing* images that already exist to extract meaning or improve them.
 - Streaming quality depends on **variance** of packet arrival times, not just average speed. Low variance keeps the buffer full; high variance empties it unpredictably. This is the same maths behind "jitter" vs "ping" in online games.
 - SVG is just an XML document: shapes are elements, properties are attributes. It is the Lecture 2 idea of "vectors are mathematical descriptions" written out as a real file format, and because it is plain text it can be sent over a network, versioned in Git, and edited in a text editor.
-- SSR vs CSR is a question of *where the work happens*: SSR gives a faster first load and better SEO; CSR gives faster subsequent interactions and cheaper servers. SSR is the software-side view of Lecture 8's headless-server idea.
+- SSR vs CSR is a question of *where the work happens*: SSR gives a faster first load and better SEO; CSR gives faster subsequent interactions and cheaper servers. SSR is the software-side view of Lecture 9's headless-server idea.
 - For large-scale image storage, object stores (S3, Google Cloud Storage) beat relational databases on scale, redundancy, and cost; a relational DB is fine for a few small images (binary data or a file path).
 - AWT delegates to the OS's native widgets (a Windows button on Windows, a macOS button on macOS); the "abstract" part is the Java layer hiding OS differences.
-- Our group project is the **list matching project**: two lists shown as aligned columns, with arrows drawn between matching elements (the idea from Lecture 8). This session was planning only; it draws on canvas drawing, event listeners, and layouts.
+- Our group project is the **list matching project**: two lists shown as aligned columns, with arrows drawn between matching elements (the idea from Lecture 9). This session was planning only; it draws on canvas drawing, event listeners, and layouts.
 - Challenging part: object storage (S3) — understood the use case but never configured a bucket.
 - CSE330 (Computer Networks) connection: packet delivery variance, server/client work split, and remote storage are all networking concepts landing in a graphics context.

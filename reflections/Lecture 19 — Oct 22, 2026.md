@@ -1,4 +1,4 @@
-# Lecture 18 — Oct 22, 2026
+# Lecture 19 — Oct 22, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -25,10 +25,10 @@
 
 - No presentations this session; it was a review of the GitHub repositories themselves. The professor's framing: your GitHub profile is the document a recruiter or interviewer looks at **before** your resume. A clean, well-maintained GitHub tells a story that a PDF cannot.
 - The five criteria answer five questions an evaluator has on opening an unfamiliar repo: **README** (what is this and how do I run it?), **folder structure** (is it maintainable and tool-compatible?), **commit messages** (how was this built?), **Javadoc** (can the code be read and used without decoding the implementation?), **tests** (does it hold up and can it be changed safely?).
-- Maven standard layout: `pom.xml`, `.gitignore`, `README.md`, `src/main/java`, `src/main/resources` (FXML, CSS, images, configs), `src/test/java`. Deviating actively breaks build tools, IDEs, and CI. Builds on Lectures 2, 5, and 6.
+- Maven standard layout: `pom.xml`, `.gitignore`, `README.md`, `src/main/java`, `src/main/resources` (FXML, CSS, images, configs), `src/test/java`. Deviating actively breaks build tools, IDEs, and CI. Builds on Lectures 3, 6, and 6.
 - Conventional commits (`feat`, `fix`, `docs`, `refactor`, `test`, `chore`) in imperative mood: "fix: handle empty list input in matcher" instead of "fixed bug".
 - Javadoc sits below the README and above inline comments: it documents each method's contract, not what the name already says.
-- Tests belong to the evaluated artifact, not an add-on; this ties to unit vs integration testing from Lecture 6.
+- Tests belong to the evaluated artifact, not an add-on; this ties to unit vs integration testing from Lecture 7.
 - GitHub activity is cumulative and timestamped; it cannot be manufactured at the last minute, so the best time to build a strong record is while actually working on the project.
 - Groups 1–6 were reviewed against all five criteria (Groups 7–12 in the next session). The review showed these criteria are visible to anyone before a line of code is read.
 - Several READMEs had GIFs that showed as broken links. Always check what you pushed from a different browser or account.

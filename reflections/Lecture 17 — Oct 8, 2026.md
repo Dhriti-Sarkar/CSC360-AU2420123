@@ -1,4 +1,4 @@
-# Lecture 16 — Oct 8, 2026
+# Lecture 17 — Oct 8, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -21,11 +21,11 @@
 
 ## Key takeaways
 
-- This was the second round of peer presentations, with the same interview-style Q&A as Lecture 15: probing decisions and edge cases after each demo.
+- This was the second round of peer presentations, with the same interview-style Q&A as Lecture 16: probing decisions and edge cases after each demo.
 - Technology choices varied a lot this round: a pure Java console application with no GUI, Java Swing with Graphics2D, and JavaFX structured with FXML. Each choice reflected how the group had thought about its problem before writing code.
 - A console application is a valid deliverable when a GUI adds nothing to the core functionality. The right tool is the one that fits the problem, not the most sophisticated one available.
-- Graphics2D (Java 2D) is genuinely versatile: it can draw curved relationship arrows, not just simple shapes. This connects to the Java 2D and Swing lectures from earlier (Lectures 4 and 5).
-- Set intersection with `HashSet` plus custom 2D rendering brings together a data structure operation and drawing, two things the course covered separately. This is the same idea as our list matching project and the Lecture 8 arrow-mapping discussion.
-- FXML is a declarative XML-based layout format that loads with `FXMLLoader` and separates layout from logic (Lecture 8). It is a good reference for the splash screen added in Lecture 13.
+- Graphics2D (Java 2D) is genuinely versatile: it can draw curved relationship arrows, not just simple shapes. This connects to the Java 2D and Swing lectures from earlier (Lectures 5 and 6).
+- Set intersection with `HashSet` plus custom 2D rendering brings together a data structure operation and drawing, two things the course covered separately. This is the same idea as our list matching project and the Lecture 9 arrow-mapping discussion.
+- FXML is a declarative XML-based layout format that loads with `FXMLLoader` and separates layout from logic (Lecture 9). It is a good reference for the splash screen added in Lecture 14.
 - The groups that answered the Q&A most confidently could explain why their code is structured the way it is, not just what it does.
 - Observation session: nothing to implement or debug, so no personal technical challenge this time.

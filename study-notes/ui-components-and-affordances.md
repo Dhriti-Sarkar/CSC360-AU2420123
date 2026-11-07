@@ -19,7 +19,7 @@ A good layout **reorganizes itself** when the window is resized, shrunk, or stre
 
 ## Master-Detail pattern
 
-Clicking an item in a list fires a **listener** that shows that item's details in a separate panel. The professor's analogy: a library website with ten million articles should not load them all at once — show a few, let search reach the rest. Real examples: Gmail's inbox/email view, Outlook, most file managers. (Same idea as the TreeView + property panel in Lecture 8's [treeview-and-object-serialization](treeview-and-object-serialization.md).)
+Clicking an item in a list fires a **listener** that shows that item's details in a separate panel. The professor's analogy: a library website with ten million articles should not load them all at once — show a few, let search reach the rest. Real examples: Gmail's inbox/email view, Outlook, most file managers. (Same idea as the TreeView + property panel in Lecture 9's [treeview-and-object-serialization](treeview-and-object-serialization.md).)
 
 ## Group projects this session (9–12)
 
