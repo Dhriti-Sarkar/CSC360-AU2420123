@@ -1,4 +1,4 @@
-# Lecture 20 — Oct 27, 2026
+# Lecture 21 — Oct 27, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -21,7 +21,7 @@
 
 ## Key takeaways
 
-- The professor used each repository as a live prompt, flagging patterns in the code and turning them into real-world lessons. The same five criteria from Lecture 19 applied (README, folder structure, commit messages, Javadoc, tests).
+- The professor used each repository as a live prompt, flagging patterns in the code and turning them into real-world lessons. The same five criteria from Lecture 20 applied (README, folder structure, commit messages, Javadoc, tests).
 - **Inline comments explain WHY, not WHAT.** The code already shows what it does; the reasoning behind a decision or a value is what gets lost when you step away from the file. Comments that just restate the line add noise.
 - **Consistent formatting** across the codebase signals that the team coordinated and wrote with a reader in mind. Inconsistency makes code harder to parse even when the logic is correct.
 - **Code as communication:** a function that runs but takes twenty minutes to understand is worse than one that takes slightly longer to write but reads clearly. This extends the "write logic once, apply it broadly" idea from Lecture 15.

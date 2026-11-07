@@ -23,8 +23,9 @@ List A        List B
 - **Lecture 14 (Sep 29):** final feature (splash screen) and project documentation (README and Wiki). See [javafx-preloader-splash-screen](javafx-preloader-splash-screen.md) and [readme-vs-wiki-documentation](readme-vs-wiki-documentation.md).
 - **Lecture 16 (Oct 6):** preparing to defend design decisions in the technical Q&A. See [project-presentation-and-technical-qa](project-presentation-and-technical-qa.md).
 - **Lecture 17 (Oct 8):** how matching and arrow drawing work. See [set-intersection-and-arrow-drawing](set-intersection-and-arrow-drawing.md).
-- **Lecture 19 (Oct 22):** repository standards checklist (README, layout, commits, Javadoc, tests). See [github-repository-grading-criteria](github-repository-grading-criteria.md).
-- **Lecture 20 (Oct 27):** code quality (WHY comments, consistent formatting) and justifying the project as solving a real problem. See [code-comments-and-formatting](code-comments-and-formatting.md) and [ai-originality-and-understanding-your-code](ai-originality-and-understanding-your-code.md).
+- **Lecture 18 (Oct 13):** our group presented the project under the professor's Q&A. See [defending-your-own-design-decisions](defending-your-own-design-decisions.md).
+- **Lecture 20 (Oct 22):** repository standards checklist (README, layout, commits, Javadoc, tests). See [github-repository-grading-criteria](github-repository-grading-criteria.md).
+- **Lecture 21 (Oct 27):** code quality (WHY comments, consistent formatting) and justifying the project as solving a real problem. See [code-comments-and-formatting](code-comments-and-formatting.md) and [ai-originality-and-understanding-your-code](ai-originality-and-understanding-your-code.md).
 
 ## Related
 

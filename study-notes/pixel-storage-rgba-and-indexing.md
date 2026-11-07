@@ -1,6 +1,6 @@
 # Pixel Storage: RGB, RGBA & Indexing (explained simply)
 
-Lecture 21 covered what we can do with an image ([image-contrast-histograms-and-equalization](image-contrast-histograms-and-equalization.md)). This note goes one level lower: what an image is made of as raw bytes. Builds on [raster-vs-vector](raster-vs-vector.md) (raster = a grid of pixels).
+Lecture 22 covered what we can do with an image ([image-contrast-histograms-and-equalization](image-contrast-histograms-and-equalization.md)). This note goes one level lower: what an image is made of as raw bytes. Builds on [raster-vs-vector](raster-vs-vector.md) (raster = a grid of pixels).
 
 ## The pixel
 

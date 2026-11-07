@@ -22,7 +22,7 @@
 
 ## Key takeaways
 
-- CSC360 is really two courses stitched together. **Computer graphics** creates images from mathematical models; **image processing** takes an image that already exists and works out what is in it or improves it. Seeing them as opposites made the combination make sense. (The image processing half begins properly in Lecture 11 and Lecture 21.)
+- CSC360 is really two courses stitched together. **Computer graphics** creates images from mathematical models; **image processing** takes an image that already exists and works out what is in it or improves it. Seeing them as opposites made the combination make sense. (The image processing half begins properly in Lecture 11 and Lecture 22.)
 - **Lines vs curves:** a line changes at a constant rate, so its derivative is always the same value; a curve's rate of change keeps varying along it, so its derivative changes from point to point. This is calculus applied to drawing, and the starting point for how a computer draws curves.
 - **Java frameworks:** AWT came first and is limited; Swing fixed many of its issues and is still bundled with the Java runtime; JavaFX is the modern one, with proper support for animation and styled components, and is what the course uses. Nobody recommends AWT or Swing for new work, but they are still shipped with Java.
 - **UI design patterns** exist because of how users behave, not just to keep code clean. Jakob's Law (from HCI): users spend most of their time on other sites, so they arrive with expectations, and following conventions respects what they already know.

@@ -1,4 +1,4 @@
-# Lecture 18 — Oct 15, 2026
+# Lecture 19 — Oct 15, 2026
 
 ## TODO / Topics covered (revision checklist)
 
@@ -22,7 +22,7 @@
 
 ## Key takeaways
 
-- This was the fourth and final round of presentations. Across Lectures 16–18, all twelve groups presented, which concluded the evaluation block for the project work. The range of tools and problem domains was wider than I expected going in.
+- This was the fourth and final round of presentations. Across Lectures 16–19, all twelve groups presented, which concluded the evaluation block for the project work. The range of tools and problem domains was wider than I expected going in.
 - The master-detail layout (list on one side, full record on the other, search bar filtering the list live) is one of the most common UI patterns in software: mail clients, music libraries, file explorers, e-commerce category pages. It follows how users browse a collection: scan, pick one, see everything. This builds on the pattern from Lecture 10 and the TreeView idea from Lecture 9.
 - Master-detail is the JavaFX property/event model working as intended: a selection-changed listener on the master updates the detail panel, so the two stay decoupled.
 - The most directly course-relevant project applied translate, rotate, scale, gradient fills, and effects to a shape through live controls. It showed the 2D transformation theory from the early Java 2D lectures turned into a working interface, which is why that material was taught.

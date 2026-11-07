@@ -1,4 +1,4 @@
-# Lecture 19 — Oct 22, 2026
+# Lecture 20 — Oct 22, 2026
 
 ## TODO / Topics covered (revision checklist)
 
